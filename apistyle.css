@@ -2,29 +2,99 @@
     background-color:#323232;
     color: #ffffff;
     width: 100%;
-    height: 10%;
+    height: 90px;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-};
+    position: fixed;
+    z-index: 2000;
+}
 
 .sidenav {
     height: 100%; 
-    width: 15px; 
+    width: 300px; 
     position: fixed; 
     z-index: 1000; 
-    top: 0; 
+    top: 90px; 
     left: 0;
-    background-color: #ccd9ff;
+    background-color: #ffe8e6;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-  };
+  } 
+
+  .search-container button {
+    float: center;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #323232;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .input {
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
 
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
+  height: 90%;
+  top: 90px; 
+  margin-left: 300px; /* Same as the width of the sidebar */
+  padding: 150px 10px;
+  border-radius: 5px;
+  border-color: #960606;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  border-color: #f2f2f2;
+  border-radius: 2px;
+  text-align: left;
+  padding: 10px;
+  height: 35px;
+}
+
+.weatherFHeader {
+  margin-left: 0;
+}
+
+.weatherForecast {
+  background-color: #0099ff;
+  height: auto;
+  width: 300px;
+  margin: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.weatherFHeader {
+  padding: 0;
+}
+
+#forecastHeader {
+  padding: 0;
+}
+
+#forecast1 {
+margin-left: 0;
+}
+
+#UVIndex {
+  border-radius: 3px;
+  background-color:#ff0000;
+  color: #ffffff;
+  font-style: normal;
+  padding: 8px;
+}
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
