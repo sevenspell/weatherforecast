@@ -9,19 +9,20 @@ It also appends the list of recent cities searched, so that user can simply clic
 ## Usage 
 
 1. Open webpage.
-(screenshot 1)
+https://github.com/sevenspell/week6-assignment/blob/master/assets/Screenshot1.png
 
 2. Type in city name and click on the search button to search for current weather condition.
-(screenshot 2)
+https://github.com/sevenspell/week6-assignment/blob/master/assets/Screenshot2.png
 
 3. Current weather condition and 5-day forecast will appear for the city searched.
-(screenshot 3)
+https://github.com/sevenspell/week6-assignment/blob/master/assets/Screenshot3.png
 
 4. Cities searched will be appended as a list of buttons on the sidebar for easy click later.
-(screenshot 4)
+https://github.com/sevenspell/week6-assignment/blob/master/assets/Screenshot4.png
 
 5. Search for a few more cities and try clicking on the recent cities searched.
-(screenshot 5 & 6)
+https://github.com/sevenspell/week6-assignment/blob/master/assets/Screenshot5.png
+https://github.com/sevenspell/week6-assignment/blob/master/assets/Screenshot6.png
 
 
 ## Credits
