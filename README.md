@@ -1,5 +1,7 @@
 Open Weather API 
 
+https://sevenspell.github.io/weatherforecast/
+
 ## Description 
 
 The Open Weather API homework is to provide current and updated weather conditions to users based on the cities they search for. It provides at a glance the city name, date, temperature, humidity and the UV index. It also provides forecast for the next 5 days which will come in useful if they need to know the weather conditions for travel planning etc. 
